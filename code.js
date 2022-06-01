@@ -5,6 +5,8 @@ addEventListener("keydown", getArrowKeyInput);
 //https://en.wikipedia.org/wiki/Snake_(video_game_genre)#Gameplay
 
 var box = 20;
+ctx.canvas.width = window.innerWidth;
+ctx.canvas.height = window.innerHeight;
 
 class snakeClass {
     constructor() {
